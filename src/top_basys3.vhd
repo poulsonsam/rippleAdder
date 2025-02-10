@@ -56,7 +56,7 @@ end top_basys3;
 architecture top_basys3_arch of top_basys3 is 
 	
     -- declare the component of your top-level design
-
+    signal w_carry  : STD_LOGIC_VECTOR(3 downto 0); -- for ripple between adders
     -- declare any signals you will need	
   
 begin
