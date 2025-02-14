@@ -22,3 +22,33 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![ripple adder test bench waveform](WaveForm.png)
+
+
+![Top basys entity diagram](EntityDiagram.jpg)
+
+
+## Documentation: Collaborated with C3C Justin Bonilla and C3C Gavin Smith on ICE 3. Helped me understand that I didn’t need to draw all the architecture in the ripple adder. Helped me understand the logic for the ripple adder test bench. Helped me realize how to map the ports correctly so that they lined up with the correct switches and leds.
